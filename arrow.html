@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="addnum"></p>
+        <p id="subnum"></p>
+        <script>
+            html = (val) => "Anantha" + val;
+            document.getElementById("demo").innerHTML = html(" Lakshmi");
+            addTwoNumber = (num1,num2)=>{return num1+num2}
+            document.getElementById("addnum").innerHTML += addTwoNumber(10,20);
+            document.write(addTwoNumber(10,20))
+            console.log(addTwoNumbers(10,20))
+            alert(addTwoNumber(10,20))
+        // subtractiion of two numbers using arrow functions //
+            subTwoNumber = (num1,num2)=>{return num1-num2;}
+            document.getElementById("subnum").innerHTML = subTwoNumber(10,20);
+            document.write(subTwoNumber(10,20))
+            console.log(subTwoNumber(10,20))
+            alert(subTwoNumber(10,20))
+        </script>
+    </body>
+</html>
